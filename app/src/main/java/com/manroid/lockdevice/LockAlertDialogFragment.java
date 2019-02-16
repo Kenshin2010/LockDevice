@@ -15,7 +15,11 @@ import android.widget.QuickContactBadge;
 
 public class LockAlertDialogFragment extends DialogFragment {
 
-    
+    private OnClickDialogListener onClickDialogListener;
+
+    public interface OnClickDialogListener {
+        void onFinishDialog();
+    }
 
     public LockAlertDialogFragment() {
         // Empty constructor is required for DialogFragment
@@ -23,8 +27,9 @@ public class LockAlertDialogFragment extends DialogFragment {
         // Use `newInstance` instead as shown below
     }
 
-    public static LockAlertDialogFragment newInstance() {
+    public static LockAlertDialogFragment newInstance(OnClickDialogListener onClickDialogListener) {
         LockAlertDialogFragment frag = new LockAlertDialogFragment();
+        frag.onClickDialogListener = onClickDialogListener;
         return frag;
     }
 
@@ -41,7 +46,7 @@ public class LockAlertDialogFragment extends DialogFragment {
         btnOK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                onClickDialogListener.onFinishDialog();
             }
         });
     }
