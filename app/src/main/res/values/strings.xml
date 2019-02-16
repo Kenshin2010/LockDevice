@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Lock Screen</string>
+    <string name="lock_screen_description" translatable="false">Lock Screen</string>
+    <string name="device_admin" translatable="false">Device Admin</string>
+
+    <string name="title">Important note</string>
+    <string name="message_1">1. How can I open the setup page?</string>
+    <string name="description_1">After the application is installed in the device, you will see a shortcut to "Configure Lock Lock Screen" with an icon that is locked, like the icon in this dialog to go to the settings page.</string>
+    <string name="message_2">2. I cannot remove this application. What can I do?</string>
+    <string name="description_2">Before you can remove the application, you must go to the settings page and click "Remove device management".</string>
+    <string name="message_3">3. Why can\'t I see any animation even if I select one of the settings pages?</string>
+    <string name="description_3">First, you must go to "Settings> Developer Option" and set "Transition animation scale" to 1x. If this cannot help, you must reinstall.</string>
+    <string name="more">This app require Device Admin permission in order to lock and switch off the screen</string>
+    <string name="ok">OK</string>
+
+</resources>

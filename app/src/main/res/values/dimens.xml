@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_left_dialog">5dp</dimen>
+    <dimen name="margin_left_dialog_discription">15dp</dimen>
+    <dimen name="width_button">100dp</dimen>
+    <dimen name="height_button">50dp</dimen>
+    <dimen name="height_linealayout">60dp</dimen>
+
+</resources>

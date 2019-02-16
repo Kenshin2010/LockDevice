@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">Lưu ý quan trọng</string>
+    <string name="message_1">1. Làm thế nào tôi có thể mở trang thiết lập?</string>
+    <string name="description_1">Sau khi ứng dụng được cài đặt trong thiết bị, bạn sẽ thấy có thêm 1 phím tắt là "Cấu hình Lock Lock Screen" với một biểu tượng là hình khóa, giống như biểu tượng trong hộp thoại này để vào trang cài đặt.</string>
+    <string name="message_2">2. Tôi không thể gỡ bỏ ứng dụng này. Tôi phải làm gì?</string>
+    <string name="description_2">Trước khi bạn có thể gỡ bỏ ứng dụng, bạn phải đi đến trang cài đặt và bấm vào nút "Hủy bỏ quản lý thiết bị".</string>
+    <string name="message_3">3. Tại sao tôi không thể thấy bất kỳ hiệu ứng động nào ngay cả khi tôi lựa chọn một trong các trang thiết đặt?</string>
+    <string name="description_3">Trước tiên, bạn phải vào "Settings > Developer Option" và đặt "Transition animation scale" tới 1x. Nếu điều này không thể trợ giúp, bạn phải cài đặt lại.</string>
+    <string name="more">This app require Device Admin permission in order to lock and switch off the screen</string>
+    <string name="ok">Đồng ý</string>
+
+</resources>
