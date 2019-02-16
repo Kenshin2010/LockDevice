@@ -16,10 +16,22 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <style name="FontNormal" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:textSize">16sp</item>
+    <style name="FontSmall" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/white</item>+
         <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FontNormal" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>+
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FontLarge" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>+
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
